@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script defer src="./script/app.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <section class="weather">
+      <div id="input">
+        Введите город:
+        <input id="inputCity" type="text" value="Могилёв"/>
+      </div>
+      <div id="choose">
+        Выберите время:
+        <select id="chooseSel">
+          <option value="00:00">00:00</option>
+          <option value="03:00">03:00</option>
+          <option value="06:00">06:00</option>
+          <option value="09:00">09:00</option>
+          <option value="12:00">12:00</option>
+          <option value="15:00">15:00</option>
+          <option value="18:00">18:00</option>
+          <option value="21:00">21:00</option>
+        </select>
+        <button id="sendBut">поиск</button>
+      </div>
+      <div id="city"></div>
+      <div id="container"></div>
+    </section>
+  </body>
+</html>

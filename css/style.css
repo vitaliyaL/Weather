@@ -1,0 +1,53 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.weather{
+    padding: 30px;
+    height: 100vh;
+    background-color: rgb(133, 236, 254);
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.item{
+    border: 1px solid black;
+    background-color: cornsilk;
+    border-radius: 15px;
+    padding: 10px;
+    width: 18%;
+}
+.date{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: rgb(133, 236, 254);
+    -webkit-text-stroke: .02em rgb(0, 0, 0);
+}
+.desc{
+    display: flex;
+    font-size: 18px;
+    font-weight: 800;
+    font-style: italic;
+    justify-content: space-between;
+}
+.descImg{
+    width: 40%;
+    text-align: center;
+}
+.descTxt{
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+.city{
+    margin: 30px;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    color: cornsilk;
+    -webkit-text-stroke: .02em rgb(0, 0, 0);
+}
